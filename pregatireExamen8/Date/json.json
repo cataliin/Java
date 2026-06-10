@@ -1,0 +1,42 @@
+[
+  {
+    "cod_facultate": 1,
+    "denumire": "INFORMATICA",
+    "numar_locuri": 150
+  },
+  {
+    "cod_facultate": 2,
+    "denumire": "MATEMATICA",
+    "numar_locuri": 100
+  },
+  {
+    "cod_facultate": 3,
+    "denumire": "FIZICA",
+    "numar_locuri": 80
+  },
+  {
+    "cod_facultate": 4,
+    "denumire": "CHIMIE",
+    "numar_locuri": 50
+  },
+  {
+    "cod_facultate": 5,
+    "denumire": "DREPT",
+    "numar_locuri": 200
+  },
+  {
+    "cod_facultate": 6,
+    "denumire": "ECONOMIE",
+    "numar_locuri": 175
+  },
+  {
+    "cod_facultate": 7,
+    "denumire": "MEDICINA",
+    "numar_locuri": 20
+  },
+  {
+    "cod_facultate": 8,
+    "denumire": "ARHITECTURA",
+    "numar_locuri": 10
+  }
+]

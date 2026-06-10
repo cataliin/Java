@@ -1,0 +1,20 @@
+[
+    {
+        "numar consultatii": 2,
+        "venit estimat": 400,
+        "id": 1,
+        "nume": "Andrei Popescu"
+    },
+    {
+        "numar consultatii": 1,
+        "venit estimat": 250,
+        "id": 3,
+        "nume": "Ion Dumitrescu"
+    },
+    {
+        "numar consultatii": 0,
+        "venit estimat": 0,
+        "id": 2,
+        "nume": "Maria Ionescu"
+    }
+]

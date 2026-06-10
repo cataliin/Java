@@ -1,0 +1,32 @@
+<facturi>
+    <factura>
+        <denumire>TechSource SRL</denumire>
+        <reprezentant>Andrei Muresan</reprezentant>
+        <valoare>1500.50</valoare>
+        <idUri>
+            <id>101</id>
+            <id>102</id>
+            <id>103</id>
+        </idUri>
+    </factura>
+    <factura>
+        <denumire>MegaStore</denumire>
+        <reprezentant>Elena Vasilescu</reprezentant>
+        <valoare>430.00</valoare>
+        <idUri>
+            <id>55</id>
+            <id>56</id>
+        </idUri>
+    </factura>
+    <factura>
+        <denumire>ConstructX</denumire>
+        <reprezentant>Ionut Popescu</reprezentant>
+        <valoare>12500.99</valoare>
+        <idUri>
+            <id>901</id>
+            <id>902</id>
+            <id>903</id>
+            <id>904</id>
+        </idUri>
+    </factura>
+</facturi>

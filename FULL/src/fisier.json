@@ -1,0 +1,20 @@
+[
+  {
+    "denumire": "TechSource SRL",
+    "repartizare": "etaj1",
+    "valoare": 1500.50,
+    "idUri": [101, 102, 103]
+  },
+  {
+    "denumire": "MegaStore",
+    "repartizare": "etaj2",
+    "valoare": 430.00,
+    "idUri": [55, 56]
+  },
+  {
+    "denumire": "ConstructX",
+    "repartizare": "etaj3",
+    "valoare": 12500.99,
+    "idUri": [901, 902, 903, 904]
+  }
+]
