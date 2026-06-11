@@ -80,6 +80,24 @@ public class ManagerDate {
         return specializari;
     }
 
+    public static List<Specializare> citireXML1(String path) throws IOException, SAXException, ParserConfigurationException {
+        List<Specializare> specializari = new ArrayList<>();
+
+        DocumentBuilder builder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+        Document doc = builder.parse(new File(path));
+
+        NodeList noduri = doc.getElementsByTagName("specializare");
+
+        for(int i =0;i<noduri.getLength();++i){
+            Element e = (Element)noduri.item(i);
+            int cod = Integer.parseInt(e.getElementsByTagName("cod").item(0).getTextContent());
+            String denumire = e.getElementsByTagName("denumire").item(0).getTextContent();
+            int locuri = Integer.parseInt(e.getElementsByTagName("locuri").item(0).getTextContent());
+            specializari.add(new Specializare(cod,denumire,locuri));
+        }
+        return specializari;
+    }
+
     public static void scriereTXT(String path, List<Candidat> candidati) throws IOException {
         try(PrintWriter pw = new PrintWriter(new FileWriter(path))){
             for(var i:candidati){
@@ -87,4 +105,30 @@ public class ManagerDate {
             }
         }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

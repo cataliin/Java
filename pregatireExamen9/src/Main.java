@@ -34,7 +34,7 @@ public class Main {
         ManagerDate.scriereJSON("date\\inscriere_specializari.json", specializari, candidati, mapa);
 
         System.out.println("\nCITIRE XML\n");
-        List<Specializare> specializariXML = ManagerDate.citireXML("date\\specializari.xml");
+        List<Specializare> specializariXML = ManagerDate.citireXML1("date\\specializari.xml");
         specializariXML.stream()
                 .forEach(System.out::println);
         ManagerDate.scriereTXT("date\\inscrieriScriere.txt", candidati);
