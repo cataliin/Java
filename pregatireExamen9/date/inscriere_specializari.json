@@ -1,0 +1,32 @@
+[
+    {
+        "denumire": "Cibernetica",
+        "numar_inscrieri": 5,
+        "medie": 9.4,
+        "cod_specializare": 1
+    },
+    {
+        "denumire": "Informatica",
+        "numar_inscrieri": 5,
+        "medie": 8.709999999999999,
+        "cod_specializare": 2
+    },
+    {
+        "denumire": "Matematica",
+        "numar_inscrieri": 4,
+        "medie": 8.525,
+        "cod_specializare": 3
+    },
+    {
+        "denumire": "Fizica",
+        "numar_inscrieri": 3,
+        "medie": 6.8,
+        "cod_specializare": 4
+    },
+    {
+        "denumire": "Chimie",
+        "numar_inscrieri": 3,
+        "medie": 7.633333333333333,
+        "cod_specializare": 5
+    }
+]

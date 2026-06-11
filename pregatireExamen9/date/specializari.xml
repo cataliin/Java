@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<specializari>
+    <specializare>
+        <cod>1</cod>
+        <denumire>Cibernetica</denumire>
+        <locuri>150</locuri>
+    </specializare>
+    <specializare>
+        <cod>2</cod>
+        <denumire>Informatica</denumire>
+        <locuri>200</locuri>
+    </specializare>
+    <specializare>
+        <cod>3</cod>
+        <denumire>Matematica</denumire>
+        <locuri>100</locuri>
+    </specializare>
+    <specializare>
+        <cod>4</cod>
+        <denumire>Fizica</denumire>
+        <locuri>80</locuri>
+    </specializare>
+    <specializare>
+        <cod>5</cod>
+        <denumire>Chimie</denumire>
+        <locuri>60</locuri>
+    </specializare>
+</specializari>
